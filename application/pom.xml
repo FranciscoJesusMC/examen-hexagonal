@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.spring</groupId>
+        <artifactId>examen-hexagonal</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>application</artifactId>
+    <name>Archetype - application</name>
+    <url>http://maven.apache.org</url>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.spring</groupId>
+            <artifactId>domain</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.spring</groupId>
+            <artifactId>infrastructure</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+</project>
